@@ -1,0 +1,5 @@
+alias ebash='vim ~/.bash_setup'
+alias rebash='. ~/.bashrc'
+
+export PYTHONSTARTUP=~/bin/util_scripts/pythonstartup.py
+alias wenv='env | sort | grep -i'
