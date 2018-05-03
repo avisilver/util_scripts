@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# bash environment setup, aliases and functions
+# Avi Silver 2018
+
 alias ebash='vim ~/.bash_setup'
 alias rebash='. ~/.bashrc'
 

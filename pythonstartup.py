@@ -34,8 +34,8 @@ def dirp(object_or_module):
 
     Print the object's or currently imported module's attributes as shown
     in  dir() on separate lines with docstrings"""
-    for attr in dir(module_name):
-        doc = module_name.__getattribute__(attr).__doc__
+    for attr in dir(object_or_module):
+        doc = object_or_module.__getattribute__(attr).__doc__
         doc = doc if doc else ""
         indented_doc = "\n".join(doc.split("\n"))
         print ("\n{line}\n{attr}\n{doc}".format(
